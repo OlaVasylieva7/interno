@@ -170,3 +170,89 @@ img {
   background-image: url("../images/arrowbutton.png");
   margin-left: 6px;
 }
+
+/* challengin designs */
+
+.designs-section {
+  margin-bottom: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.designs-title {
+  font-family: 'DM Serif Display';
+  width: 450px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 0.22px;
+  color: #292F36;
+  margin-bottom: 42px;
+
+}
+.designs-text {
+  font-family: 'Jost';
+  width: 531px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+  margin-bottom: 30px;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+.design-number {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+
+}
+.design-number-text {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+}
+.design-phone-button {
+}
+
+
+/* opinions about interno */
+
+.opinions-section {
+  margin-bottom: 140px;
+  display: flex;
+}
+.opinions-title {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #292F36;
+}
+.opinions-list {
+}
+.opinions-list-item {
+}
+.item-header {
+}
+.user-photo {
+}
+.photos {
+}
+.user-info {
+}
+.user-name {
+}
+.user-location {
+}
+.item-content {
+}
+.opinion-text {
+}
