@@ -180,37 +180,36 @@ img {
   justify-content: space-between;
 }
 .designs-title {
-  font-family: 'DM Serif Display';
+  font-family: "DM Serif Display";
   width: 450px;
   font-weight: 400;
   font-size: 50px;
   line-height: 65px;
   letter-spacing: 0.22px;
-  color: #292F36;
+  color: #292f36;
   margin-bottom: 42px;
-
 }
 .designs-text {
-  font-family: 'Jost';
+  font-family: "Jost";
   width: 531px;
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.22px;
-  color: #4D5053;
+  color: #4d5053;
   margin-bottom: 30px;
-  }
+}
 
-  .contact {
-    display: flex;
-    align-items: center;
-  }
+.contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
 .design-number {
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.22px;
-  color: #4D5053;
-
+  color: #4d5053;
 }
 .design-number-text {
   font-size: 22px;
@@ -218,41 +217,109 @@ img {
   letter-spacing: 0.22px;
 }
 .design-phone-button {
+  margin-right: 20px;
+  height: 93px;
 }
 
+.designs-link {
+  background: #292F36;
+  border-radius: 18px;
+  padding: 22px 34px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.72px;
+  color: #FFFFFF;
+  position: relative;
+  width: 263px;
+  height: 71px;
+  display: flex;
+  border: none;
+}
+
+.designs-link-arrow {
+  position: absolute;
+  top: 17px;
+  right: 25px;
+}
 
 /* opinions about interno */
 
 .opinions-section {
   margin-bottom: 140px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #F4F0EC;
+  border-radius: 70px;
+  padding: 82px 42px 100px;
 }
+
 .opinions-title {
-  font-family: 'DM Serif Display';
+  font-family: "DM Serif Display";
   font-weight: 400;
   font-size: 45px;
-  line-height: 58px;
+  line-height: 74px;
   text-align: center;
   letter-spacing: 0.22px;
-  color: #292F36;
+  color: #292f36;
+  margin-bottom: 45px;
+
 }
+
 .opinions-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
+
 .opinions-list-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #FFFFFF;
+  border-radius: 30px;
+  padding: 42px 30px 42px ;
 }
 .item-header {
+  display: flex;
+  margin-bottom: 26px;
 }
 .user-photo {
+  width: 64px;
+  height: 64px;
+  margin-right: 30px;
 }
 .photos {
 }
 .user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .user-name {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.22px;
+  color: #292F36;
 }
 .user-location {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+  margin-top: 5px;
 }
 .item-content {
 }
 .opinion-text {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.22px;
+  color: #4D5053;
 }
