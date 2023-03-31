@@ -32,7 +32,7 @@ img {
 
 .container {
   width: 1200px;
-  padding: 0 100px;
+  /* padding: 0 100px; */
   margin: 0 auto;
 }
 
@@ -320,6 +320,121 @@ img {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+}
+
+
+/* brands */
+
+.brands-section {
+  margin-bottom: 100px;
+}
+.brands-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* recent project */
+
+.project-section {
+  margin-bottom: 80px;
+}
+.project-section-title {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #292F36;
+  margin-bottom: 20px;
+}
+.project-section-text {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+  margin-bottom: 70px;
+
+}
+.project-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 20px;
+}
+.project-section-list-item {
+  flex-basis: calc((100% - 20px) / 2);
+}
+
+.project-item-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.project-item-text {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.22px;
+  color: #292F36;
+  margin-top: 24px;
+
+}
+.project-item-category {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+}
+
+/* statistics */
+
+.stats-section {
+  height: 475px;
+  background-color: #F4F0EC; 
+  padding: 140px 0;
+}
+
+.stats-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-item {
+  width: 288px;
+  height: 195px;
+}
+
+.stats-item:not(:last-child) {
+  border-right: 1px solid #CDA274;
+  margin-right: 16px;
+}
+
+.stats-number {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 128px;
+  text-align: center;
+  letter-spacing: 1.7px;
+  color: #CDA274;
+}
+
+.stats-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
   letter-spacing: 0.22px;
   color: #4D5053;
 }
