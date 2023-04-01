@@ -402,6 +402,7 @@ img {
   height: 475px;
   background-color: #F4F0EC; 
   padding: 140px 0;
+  margin-bottom: 130px;
 }
 
 .stats-list {
@@ -437,4 +438,67 @@ img {
   text-align: center;
   letter-spacing: 0.22px;
   color: #4D5053;
+}
+
+/* projects */
+
+
+
+.projects-title {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #292F36;
+  padding-bottom: 20px;
+}
+.projects-text {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+  margin-bottom: 70px;
+}
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+.projects-list-item {
+  flex-basis: calc((100% - 20px) / 4);
+}
+
+.projects-item-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.projects-item-text {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+  color: #292F36;
+  margin-bottom: 10px;
+}
+
+.projects-item-date {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+}
+
+.project-item-action {
+  align-items: flex-end;
 }
