@@ -469,6 +469,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 40px 20px;
+  justify-content:space-between ;
 }
 .projects-list-item {
   flex-basis: calc((100% - 20px) / 4);
