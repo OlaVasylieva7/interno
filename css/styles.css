@@ -36,6 +36,7 @@ img {
   margin: 0 auto;
 }
 
+
 /* header */
 
 .header {
@@ -64,6 +65,7 @@ img {
 .header-list-item:hover {
   color: #cda274;
 }
+
 
 /* main */
 
@@ -110,6 +112,7 @@ img {
   width: 55px;
   margin-left: 15px;
 }
+
 
 /* features */
 
@@ -170,6 +173,7 @@ img {
   background-image: url("../images/arrowbutton.png");
   margin-left: 6px;
 }
+
 
 /* challengin designs */
 
@@ -396,6 +400,7 @@ img {
   color: #4D5053;
 }
 
+
 /* statistics */
 
 .stats-section {
@@ -440,9 +445,8 @@ img {
   color: #4D5053;
 }
 
+
 /* projects */
-
-
 
 .projects-title {
   font-family: 'DM Serif Display';
@@ -469,7 +473,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 40px 20px;
-  /* justify-content:space-between ; */
 }
 .projects-list-item {
   flex-basis: calc((100% - 40px) / 3);
@@ -524,4 +527,56 @@ img {
 .projects-item-arrow {
   width: 52px;
   height: 52px;
+}
+
+
+/* join us */
+
+.join-section {
+  background: #292F36;
+  border-radius: 70px;
+  height: 414px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  width: 1200px;
+}
+
+.join-subtitle {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  padding-top: 100px;
+
+}
+
+.join-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #FFFFFF;
+  margin-bottom: 31px;
+}
+
+.join-button {
+  width: 241px;
+  height: 71px;
+  background: #CDA274;
+  border: none #CDA274;
+  box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #FFFFFF;
 }
