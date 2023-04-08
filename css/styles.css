@@ -75,6 +75,10 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 0px 0px 0px 290px;
+  
+  display: flex;
+  align-items: center;
 }
 
 .hero-title {
@@ -85,7 +89,6 @@ img {
   letter-spacing: 0.22px;
   color: #292f36;
   margin-bottom: 20px;
-  padding-top: 195px;
 }
 
 .hero-text {
@@ -97,19 +100,28 @@ img {
 }
 
 .hero-button {
+  width: 207px;
+  height: 71px;
+
+  background-image: url("../images/button.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   border: 2px solid #292f36;
   border-radius: 18px;
-  background-color: #292f36;
-  padding: 22px 34px;
-  color: white;
-  display: flex;
-  align-items: center;
+  padding: 22px 67px 22px 34px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.72px;
+  color: #FFFFFF;
+
+  cursor: pointer;
 }
 
-.arrow {
-  width: 55px;
-  margin-left: 15px;
-}
+
 
 /* features */
 
@@ -235,6 +247,7 @@ img {
   height: 71px;
   display: flex;
   border: none;
+  cursor: pointer;
 }
 
 .designs-link-arrow {
@@ -566,6 +579,8 @@ img {
   text-align: center;
   letter-spacing: 0.22px;
   color: #ffffff;
+
+  cursor: pointer;
 }
 
 /* footer */
